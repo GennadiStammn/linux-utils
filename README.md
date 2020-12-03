@@ -2,11 +2,11 @@
 
 ## Crontab
 
-[sudo] apt-get install cron
+`[sudo] apt-get install cron`
 
-/etc/init.d/cron start #start cron scheduler
+`/etc/init.d/cron start #start cron scheduler`
 
-crontab -e  #edit cron job table
+`crontab -e  #edit cron job table`
 
 # add entry
 `* * * * * date > /tmp.txt`
