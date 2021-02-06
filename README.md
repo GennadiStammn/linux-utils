@@ -79,3 +79,50 @@ Rollback to a revision:
 		pullPolicy: IfNotPresent
 		# Overrides the image tag whose default is the chart appVersion.
 		tag: "latest"
+
+# Versions Maven Plugin
+
+Documentation: https://www.mojohaus.org/versions-maven-plugin/
+
+Tutorial: https://www.baeldung.com/maven-dependency-latest-version
+
+Maven Plugin
+
+```
+<build>
+	<plugins>
+		<plugin>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>versions-maven-plugin</artifactId>
+			<version>2.8.1</version>
+			<configuration>
+				<includes>
+					<include>com.fasterxml.jackson.core:jackson-databind</include>
+				</includes>
+				<excludes>
+                    <exclude>org.apache.commons:commons-collections4</exclude>
+                </excludes>
+			</configuration>
+		</plugin>
+	</plugins>
+</build>
+```
+
+Display outdated dependencies
+
+`mvn versions:display-dependency-updates -Dversions.outputFile=target/outdated.txt`
+
+Use release (replace SNAPSHOT versions)
+
+`mvn versions:use-releases`
+
+Use next release versions, creates a pom.xml.versionsBackup file
+
+`mvn versions:use-next-versions`
+
+Use latest release versions, creates a pom.xml.versionsBackup file
+
+`mvn versions:use-latest-versions`
+
+
+More finetuning options, such as 
