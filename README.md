@@ -125,4 +125,4 @@ Use latest release versions, creates a pom.xml.versionsBackup file
 `mvn versions:use-latest-versions`
 
 
-More finetuning options, such as 
+More finetuning options, such as providing a rules URL.
