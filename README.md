@@ -126,3 +126,8 @@ Use latest release versions, creates a pom.xml.versionsBackup file
 
 
 More finetuning options, such as providing a rules URL.
+
+
+# Sonarqube
+
+https://rules.sonarsource.com/java
