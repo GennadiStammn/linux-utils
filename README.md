@@ -149,3 +149,7 @@ https://rules.sonarsource.com/java/tag/java8
 
 "StandardCharsets" constants should be preferred
 https://rules.sonarsource.com/java/tag/java7
+
+# Self Signed Certificate
+
+`openssl req  -nodes -new -x509  -keyout server.key -out server.cert`
