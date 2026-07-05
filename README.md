@@ -2,9 +2,11 @@
 
 doc: https://learn.microsoft.com/de-de/windows/wsl/install
 
-wsl --install
-wsl --list
-wsl --setdefault DISTRO-NAME
+`wsl --install`
+
+`wsl --list`
+
+`wsl --setdefault DISTRO-NAME`
 
 # SKD man on windows
 
@@ -13,9 +15,13 @@ install WSL and make sure bash command is available in powershell
 in powershell
 
 `bash`
+
 `sudo apt-get install unzip`
+
 `sudo apt-get install zip`
+
 `curl -s "https://get.sdkman.io" | bash`
+
 
 # linux-utils
 
