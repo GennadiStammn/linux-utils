@@ -165,28 +165,6 @@ Use latest release versions, creates a pom.xml.versionsBackup file
 More finetuning options, such as providing a rules URL.
 
 
-# Sonarqube
-
-https://rules.sonarsource.com/java
-
-String multiline concatenation can be replaced with Text Blocks
-https://rules.sonarsource.com/java/tag/java15
-
-Use Java 12 "switch" expression
-https://rules.sonarsource.com/java/tag/java12
-
-Try-with-resources should be used
-Java 8 features should be preferred to Guava
-Anonymous inner classes containing only one method should become lambdas
-Lambdas should be replaced with method references
-Types should be used in lambdas
-"java.time" classes should be used for dates and times
-...
-https://rules.sonarsource.com/java/tag/java8
-
-"StandardCharsets" constants should be preferred
-https://rules.sonarsource.com/java/tag/java7
-
 # Self Signed Certificate
 
 `openssl req  -nodes -new -x509  -keyout server.key -out server.cert`
