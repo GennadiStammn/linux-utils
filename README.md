@@ -22,6 +22,14 @@ in powershell
 
 `curl -s "https://get.sdkman.io" | bash`
 
+list possible java versions
+
+`sdk list java`
+
+install candiate
+
+`sdk install java <IDENTIFIER>`
+
 
 # linux-utils
 
