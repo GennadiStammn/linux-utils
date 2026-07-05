@@ -12,10 +12,10 @@ install WSL and make sure bash command is available in powershell
 
 in powershell
 
-bash
-sudo apt-get install unzip
-sudo apt-get install zip
-curl -s "https://get.sdkman.io" | bash
+`bash`
+`sudo apt-get install unzip`
+`sudo apt-get install zip`
+`curl -s "https://get.sdkman.io" | bash`
 
 # linux-utils
 
