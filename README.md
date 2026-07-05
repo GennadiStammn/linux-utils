@@ -30,6 +30,10 @@ install candiate
 
 `sdk install java <IDENTIFIER>`
 
+show home folder of candidate
+
+`sdk home java 25.0.3-tem`
+
 
 # linux-utils
 
