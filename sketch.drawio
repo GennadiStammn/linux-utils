@@ -1,0 +1,236 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="3EpXFXOo2DTObRWk8Amg">
+    <mxGraphModel dx="798" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="siajAwTWqeghtYJU7B5B-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="" vertex="1">
+          <mxGeometry height="90" width="530" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="" vertex="1">
+          <mxGeometry height="80" width="530" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Core Layer - Reusable Functions" vertex="1">
+          <mxGeometry height="30" width="200" x="430" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Frontend + Orchestrator Service Layer" vertex="1">
+          <mxGeometry height="30" width="230" x="400" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-8" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="60" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SAP Kafka Topic 1" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-10" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="130" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SAP Kafka Topic 2" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SAP API 1" vertex="1">
+          <mxGeometry height="40" width="100" x="200" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SAP API 2" vertex="1">
+          <mxGeometry height="40" width="100" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Core Service 1" vertex="1">
+          <mxGeometry height="60" width="80" x="100" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="75" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Core Service 2" vertex="1">
+          <mxGeometry height="60" width="80" x="230" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-17" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="200" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-18" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="20" width="40" x="90" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-19" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="20" width="40" x="150" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-21" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160.4" y="210" as="sourcePoint" />
+            <mxPoint x="160" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-22" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="109.6" y="170" as="sourcePoint" />
+            <mxPoint x="110" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Core Service 3" vertex="1">
+          <mxGeometry height="60" width="80" x="350" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="325" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-26" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410.4" y="210" as="sourcePoint" />
+            <mxPoint x="410" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-28" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="20" width="40" x="394" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-31" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-14" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.612;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="290" as="sourcePoint" />
+            <mxPoint x="150" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-32" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="440" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SAP Kafka Topic 3" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-37" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-8" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.429;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" target="siajAwTWqeghtYJU7B5B-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="82" y="310" />
+              <mxPoint x="120" y="310" />
+            </Array>
+            <mxPoint x="40" y="330" as="sourcePoint" />
+            <mxPoint x="130" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-38" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.543;exitY=0.981;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="291.14" />
+            </Array>
+            <mxPoint x="273.44000000000005" y="270" as="sourcePoint" />
+            <mxPoint x="250" y="341.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-40" parent="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=6;fontStyle=1;verticalAlign=middle;align=center;autosizeText=1;" value="Request-Reply" vertex="1">
+          <mxGeometry height="10" width="70" x="20" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-41" parent="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=6;fontStyle=1;verticalAlign=middle;align=center;autosizeText=1;" value="Data Topic" vertex="1">
+          <mxGeometry height="10" width="70" x="425" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Frontend 1" vertex="1">
+          <mxGeometry height="30" width="85" x="95" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Orchestrator 1" vertex="1">
+          <mxGeometry height="30" width="85" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-45" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Frontend 2" vertex="1">
+          <mxGeometry height="30" width="85" x="225" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Orchestrator 2" vertex="1">
+          <mxGeometry height="30" width="85" x="225" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-48" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-49" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-44" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="siajAwTWqeghtYJU7B5B-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-10" y="180" as="sourcePoint" />
+            <mxPoint x="40" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-50" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-19" style="endArrow=classic;html=1;rounded=0;exitX=0.373;exitY=-0.017;exitDx=0;exitDy=0;entryX=0.663;entryY=1.007;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="siajAwTWqeghtYJU7B5B-44" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="166" y="130" as="sourcePoint" />
+            <mxPoint x="150" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-52" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-44" style="endArrow=classic;html=1;rounded=0;exitX=0.835;exitY=1.033;exitDx=0;exitDy=0;entryX=0.31;entryY=0.034;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="siajAwTWqeghtYJU7B5B-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="230" y="140" as="sourcePoint" />
+            <mxPoint x="214" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-53" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-47" style="endArrow=classic;html=1;rounded=0;exitX=0.206;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="siajAwTWqeghtYJU7B5B-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="190" as="sourcePoint" />
+            <mxPoint x="330" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-54" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-19" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.558;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;" target="siajAwTWqeghtYJU7B5B-47" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="180" as="sourcePoint" />
+            <mxPoint x="300" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-55" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-47" style="endArrow=classic;html=1;rounded=0;exitX=0.931;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.327;entryY=-0.097;entryDx=0;entryDy=0;entryPerimeter=0;" target="siajAwTWqeghtYJU7B5B-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="180" as="sourcePoint" />
+            <mxPoint x="360" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-56" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-47" style="endArrow=classic;html=1;rounded=0;exitX=0.667;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.617;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="siajAwTWqeghtYJU7B5B-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="190" as="sourcePoint" />
+            <mxPoint x="350" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-57" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-16" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="siajAwTWqeghtYJU7B5B-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="310" as="sourcePoint" />
+            <mxPoint x="380" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-58" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="siajAwTWqeghtYJU7B5B-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="340" as="sourcePoint" />
+            <mxPoint x="500" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-59" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="510" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SAP Kafka Topic 4" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-61" edge="1" parent="1" source="siajAwTWqeghtYJU7B5B-59" style="endArrow=classic;html=1;rounded=0;entryX=0.947;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.368;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" target="siajAwTWqeghtYJU7B5B-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="350" as="sourcePoint" />
+            <mxPoint x="530" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="150" width="285" x="315" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Microservices" vertex="1">
+          <mxGeometry height="30" width="143.75" x="80.63" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Module 1" vertex="1">
+          <mxGeometry height="80" width="75" x="330" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Service 1" vertex="1">
+          <mxGeometry height="80" width="75" x="40" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Service 2" vertex="1">
+          <mxGeometry height="80" width="75" x="120" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Service 3" vertex="1">
+          <mxGeometry height="80" width="75" x="205" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Modular Monolith" vertex="1">
+          <mxGeometry height="30" width="130" x="315" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Module 2" vertex="1">
+          <mxGeometry height="80" width="75" x="415" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Module 3" vertex="1">
+          <mxGeometry height="80" width="75" x="500" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="siajAwTWqeghtYJU7B5B-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Modular Monolith instead of Microservices" vertex="1">
+          <mxGeometry height="30" width="330" x="170" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
